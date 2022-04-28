@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="zh">
+
+<head>
+    <meta charset="UTF-8">
+    <title>作業07</title>
+    <style>
+       div {
+       margin: 15px；
+       text-align: justify；
+       line-height: 30px；
+       }
+       h2 {
+       color: #caa940；
+       }
+       h3 {
+       color: blue；
+       }
+       th img {
+       width: 90%；
+       }
+       p > img{
+       width: 70%；
+       }
+       img {
+       width: 50%；
+       }
+       table {
+           width: 90%；
+           border-color: dodgerblue；
+           border-style:solid；
+           border-collapse: collapse;
+       }
+       th {
+       text-align: center；
+       border-color: dodgerblue；
+       border-style:solid；
+       }
+       tr {
+       text-align: center；
+       border-color: dodgerblue；
+       border-style:solid；
+       }
+       td {vertical-align: middle；
+       border-color: dodgerblue；
+       border-style:solid；
+       }
+    </style>
+
+</head>
+<body>
+<script>
+    document.write("<div>九九乘法表</div>");
+
+    function nTimesNtable(n){
+        for (i=1;i<=n;i++){
+            for (j=1;j<=n;j++){
+                document.write(i + "X" + j + "=" + i*j + "  ");
+            }
+            document.write("<br>");
+        }
+    }
+    nTimesNtable(9);
+
+</script>
+
+</body>
+
+</html>
